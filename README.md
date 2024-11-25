@@ -1,69 +1,90 @@
-![Assignment-2](https://t4.ftcdn.net/jpg/03/06/88/29/360_F_306882952_XYkVbLIWubBrEyg5vvjcKisffe8CsuZG.jpg)
+![Assignment-2](https://codingzap.com/wp-content/uploads/2023/09/C_Programming_Help.webp)
 
 <h1 align="center">
   Assignment 2 🚀
 </h1>
-<p align="center">
-  (Batch-4)
-</p>
+
 
 🎉 **Welcome to Assignment 2 !!**
 
-## 🛠️ Technology You Can Use
+## 🛠️ Technology I used for this Project(BookStroe)
 
-- **Backend Development:**
+- **Backend Technologies:**
 
   - Node.js
   - Express.js
   - Mongoose
   - TypeScript
+  - MongoDB Altas
 
-- **Package Management:**
 
-  - Any npm packages that are required for your project
 
 - **Additional Technologies:**
-  - Feel free to incorporate any additional technologies that you deem necessary for your project.
+  - For Developments 
+  - Eslint
+  - Prettier
+  - gitHub
+  - Vercel etc.
 
 ---
+## API Endpoints 
 
-## 📤 **Submission Guidelines:**
+- `GET /api/products`: Fetch all items.
+- `POST /api/products`: Create a new item.
+- `PUT /api/products/:productId`: Update an item by its ID.
+- `DELETE /api/products/:productId`: Delete an item by its ID.
 
-- Submit a well-documented codebase with clear comments.
-- Make sure to add a README file that explains how to set up and use the application. In the README, include details like the project name, live URL, features, technology used, and other important information. Try to make it look professional by doing some research and making it appealing.
-- It is recommended to create the explanation video in English, but making it in Bengali is fine too. The video duration should be between 5-10 minutes.
-- For recording, you can use a software called OBS. Record the video using it, upload it to Google Drive, and share the link (make sure to set the access to "anyone with the link"). Alternatively, you can use a platform called Loom. Record the video there, and they will provide a link that you can share.
+- `GET /api/orders`: Fetch all items.
+- `POST /api/orders`: Create a new item.
+- `PUT /api/orders/:orderId`: Update an item by its ID.
+- `DELETE /api/orders/:orderId`: Delete an item by its ID.
+- `GET /api/orders/revenue`: this api will calculate all the order total price.
+
+
+### Key Components
+
+- **/app/config**: Contains configuration files for environment variables and the MongoDB connection.
+- **/modules**: Contains different modules like `order` and `product`, each with its own routes, controllers, models, and TypeScript interfaces.
+  - **order.controller.ts**: Handles the business logic and routes related to orders.
+  - **order.interface.ts**: Defines TypeScript interfaces to ensure strong typing of order data.
+  - **product.controller.ts**: Manages product-related route handling and logic.
+  - **product.model.ts**: Defines the Mongoose schema for product-related data.
+- **/app.ts**: Entry point for the app, where the main route handling functions are set up.
+- **/server.ts**: Sets up and runs the Express server, connecting the API routes with the app.
+
+## 📤 **Summary of this Project:**
+
+ - Express for handling routing and middleware.
+ - Mongoose for interacting with a MongoDB database.
+ - TypeScript for static typing, enhanced development experience, and better maintainability.
+ - RESTful API endpoints for CRUD (Create, Read, Update, Delete) operations.
+ - Basic error handling and validation.
+ - Environment configuration using dotenv.
+
+
+## How to Run
+
+After cloning the repository, follow the steps below to set up and run the application:
+
+1. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+2. Set up environment variables in a `.env` file (refer to `.env.example` for structure).
+
+3. Start the server:
+
+    ```bash
+    npm run dev
+    ```
+
+The server will run on [http://localhost:5000](http://localhost:5000).
 
 
 
-## What You Need to Provide:
+## License
 
-1. **GitHub Repository Link**
-2. **Live Deployment Link**
-3. **Video Explanation (Public Link)**
-4. **Professional README file** with features of your application and instructions on setting up the project locally.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Assignment Number based on the Last Digit of PH Student ID:
-On the website, click on your profile image, and a dropdown will open. There, you will find your Student ID displayed below your name.
-
-| The last Digit of PH Student ID | Assignment Number (Design No)   |
-| ------------------------------- | ------------------------------- |
-| 0, 1                            | [SET-1](./1-Book-Shop.md)       |
-| 2, 3                            | [SET-2](./2-Bike-Store.md)      |
-| 4, 5                            | [SET-3](./3-Car-Store.md)       |
-| 6, 7                            | [SET-4](./4-Bi-Cycle-Store.md)  |
-| 8, 9                            | [SET-5](./5-Stationery-Shop.md) |
-
-### ⏰ **Deadline:**
-
-- **60 Marks:** November 24, 2024
-- **50 Marks:** November 25, 2024
-- **30 Marks:** After November 25, 2024
-
-## 🚫 **Important Note:**
-
-Plagiarism will not be tolerated. Ensure that the code you submit is your work. Any instances of plagiarism will result in 0 Marks.
-
----
-
-By following these instructions, you'll be well-equipped to complete Assignment 2 successfully. Good luck! 🍀
