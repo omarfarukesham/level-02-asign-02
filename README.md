@@ -1,11 +1,11 @@
 ![Assignment-2](https://codingzap.com/wp-content/uploads/2023/09/C_Programming_Help.webp)
 
 <h1 align="center">
-  Assignment 2 🚀
+  Assignment  project - 2 🚀
 </h1>
 
 
-🎉 **Welcome to Assignment 2 !!**
+🎉 **Welcome to Backend project !!**
 
 ## 🛠️ Technology I used for this Project(BookStroe)
 
