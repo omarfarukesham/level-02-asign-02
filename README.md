@@ -77,7 +77,7 @@ After cloning the repository, follow the steps below to set up and run the appli
 3. Start the server:
 
     ```bash
-    npm run dev
+    npm run start:dev
     ```
 
 The server will run on [http://localhost:5000](http://localhost:5000).
